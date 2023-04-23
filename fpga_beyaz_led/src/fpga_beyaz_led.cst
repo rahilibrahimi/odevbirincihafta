@@ -1,0 +1,23 @@
+//Copyright (C)2014-2022 Gowin Semiconductor Corporation.
+//All rights reserved. 
+//File Title: Physical Constraints file
+//GOWIN Version: 1.9.8.09 Education
+//Part Number: GW1NR-LV9QN88PC6/I5
+//Device: GW1NR-9C
+//Created Time: Thu 04 20 15:40:56 2023
+
+IO_LOC "LCD_B[3]" 18;
+
+IO_LOC "LCD_B[2]" 17;
+
+IO_LOC "LCD_G[2]" 16;
+
+IO_LOC "LCD_G[1]" 15;
+
+IO_LOC "LCD_R[1]" 14;
+
+IO_LOC "LCD_R[0]" 13;
+
+IO_LOC "LCD_CLK" 4;
+
+

@@ -1,0 +1,24 @@
+{
+ "Files" : [
+  {
+   "Path" : "E:/hafta5/fpga_beyaz_led/src/TOP.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "E:/hafta5/fpga_beyaz_led/src/dene.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "E:/hafta5/fpga_beyaz_led/src/gowin_rpll/gowin_rpll.v",
+   "Type" : "verilog"
+  }
+ ],
+ "IncludePath" : [
+
+ ],
+ "LoopLimit" : 2000,
+ "ResultFile" : "E:/hafta5/fpga_beyaz_led/impl/temp/rtl_parser.result",
+ "Top" : "",
+ "VerilogStd" : "verilog_2001",
+ "VhdlStd" : "vhdl_93"
+}

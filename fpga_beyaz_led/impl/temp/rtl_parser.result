@@ -1,0 +1,28 @@
+[
+ {
+  "InstFile" : "E:/hafta5/fpga_beyaz_led/src/TOP.v",
+  "InstLine" : 1,
+  "InstName" : "TOP",
+  "ModuleFile" : "E:/hafta5/fpga_beyaz_led/src/TOP.v",
+  "ModuleLine" : 1,
+  "ModuleName" : "TOP",
+  "SubInsts" : [
+   {
+    "InstFile" : "E:/hafta5/fpga_beyaz_led/src/TOP.v",
+    "InstLine" : 18,
+    "InstName" : "chip_pll",
+    "ModuleFile" : "E:/hafta5/fpga_beyaz_led/src/gowin_rpll/gowin_rpll.v",
+    "ModuleLine" : 9,
+    "ModuleName" : "Gowin_rPLL"
+   },
+   {
+    "InstFile" : "E:/hafta5/fpga_beyaz_led/src/TOP.v",
+    "InstLine" : 24,
+    "InstName" : "VGAMod_inst",
+    "ModuleFile" : "E:/hafta5/fpga_beyaz_led/src/dene.v",
+    "ModuleLine" : 1,
+    "ModuleName" : "VGAMod"
+   }
+  ]
+ }
+]

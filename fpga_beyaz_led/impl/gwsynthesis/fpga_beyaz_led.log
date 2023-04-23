@@ -1,0 +1,55 @@
+GowinSynthesis start
+Running parser ...
+Analyzing Verilog file 'E:\hafta5\fpga_beyaz_led\src\TOP.v'
+Undeclared symbol 'LCD_HYNC', assumed default net type 'wire'("E:\hafta5\fpga_beyaz_led\src\TOP.v":30)
+Undeclared symbol 'LCD_SYNC', assumed default net type 'wire'("E:\hafta5\fpga_beyaz_led\src\TOP.v":31)
+Analyzing Verilog file 'E:\hafta5\fpga_beyaz_led\src\dene.v'
+Analyzing Verilog file 'E:\hafta5\fpga_beyaz_led\src\gowin_rpll\gowin_rpll.v'
+WARN  (EX3073) : Port 'LCD_DE' remains unconnected for this instance("E:\hafta5\fpga_beyaz_led\src\TOP.v":36)
+Compiling module 'TOP'("E:\hafta5\fpga_beyaz_led\src\TOP.v":1)
+Compiling module 'Gowin_rPLL'("E:\hafta5\fpga_beyaz_led\src\gowin_rpll\gowin_rpll.v":9)
+Compiling module 'VGAMod'("E:\hafta5\fpga_beyaz_led\src\dene.v":1)
+WARN  (EX3670) : Actual bit length 2 differs from formal bit length 5 for port 'LCD_B'("E:\hafta5\fpga_beyaz_led\src\TOP.v":33)
+WARN  (EX3670) : Actual bit length 2 differs from formal bit length 6 for port 'LCD_G'("E:\hafta5\fpga_beyaz_led\src\TOP.v":34)
+WARN  (EX3670) : Actual bit length 2 differs from formal bit length 5 for port 'LCD_R'("E:\hafta5\fpga_beyaz_led\src\TOP.v":35)
+NOTE  (EX0101) : Current top module is "TOP"
+WARN  (EX0211) : The output port "LCD_DE" of module "VGAMod" has no driver, assigning undriven bits to Z, simulation mismatch possible("E:\hafta5\fpga_beyaz_led\src\dene.v":8)
+WARN  (EX0211) : The output port "LCD_HSYNC" of module "VGAMod" has no driver, assigning undriven bits to Z, simulation mismatch possible("E:\hafta5\fpga_beyaz_led\src\dene.v":9)
+WARN  (EX0211) : The output port "LCD_VSYNC" of module "VGAMod" has no driver, assigning undriven bits to Z, simulation mismatch possible("E:\hafta5\fpga_beyaz_led\src\dene.v":10)
+WARN  (EX0211) : The output port "LCD_B[4]" of module "VGAMod" has no driver, assigning undriven bits to Z, simulation mismatch possible("E:\hafta5\fpga_beyaz_led\src\dene.v":12)
+WARN  (EX0211) : The output port "LCD_B[3]" of module "VGAMod" has no driver, assigning undriven bits to Z, simulation mismatch possible("E:\hafta5\fpga_beyaz_led\src\dene.v":12)
+WARN  (EX0211) : The output port "LCD_B[2]" of module "VGAMod" has no driver, assigning undriven bits to Z, simulation mismatch possible("E:\hafta5\fpga_beyaz_led\src\dene.v":12)
+WARN  (EX0211) : The output port "LCD_B[1]" of module "VGAMod" has no driver, assigning undriven bits to Z, simulation mismatch possible("E:\hafta5\fpga_beyaz_led\src\dene.v":12)
+WARN  (EX0211) : The output port "LCD_B[0]" of module "VGAMod" has no driver, assigning undriven bits to Z, simulation mismatch possible("E:\hafta5\fpga_beyaz_led\src\dene.v":12)
+WARN  (EX0211) : The output port "LCD_G[5]" of module "VGAMod" has no driver, assigning undriven bits to Z, simulation mismatch possible("E:\hafta5\fpga_beyaz_led\src\dene.v":13)
+WARN  (EX0211) : The output port "LCD_G[4]" of module "VGAMod" has no driver, assigning undriven bits to Z, simulation mismatch possible("E:\hafta5\fpga_beyaz_led\src\dene.v":13)
+WARN  (EX0211) : The output port "LCD_G[3]" of module "VGAMod" has no driver, assigning undriven bits to Z, simulation mismatch possible("E:\hafta5\fpga_beyaz_led\src\dene.v":13)
+WARN  (EX0211) : The output port "LCD_G[2]" of module "VGAMod" has no driver, assigning undriven bits to Z, simulation mismatch possible("E:\hafta5\fpga_beyaz_led\src\dene.v":13)
+WARN  (EX0211) : The output port "LCD_G[1]" of module "VGAMod" has no driver, assigning undriven bits to Z, simulation mismatch possible("E:\hafta5\fpga_beyaz_led\src\dene.v":13)
+WARN  (EX0211) : The output port "LCD_G[0]" of module "VGAMod" has no driver, assigning undriven bits to Z, simulation mismatch possible("E:\hafta5\fpga_beyaz_led\src\dene.v":13)
+WARN  (EX0211) : The output port "LCD_R[4]" of module "VGAMod" has no driver, assigning undriven bits to Z, simulation mismatch possible("E:\hafta5\fpga_beyaz_led\src\dene.v":14)
+WARN  (EX0211) : The output port "LCD_R[3]" of module "VGAMod" has no driver, assigning undriven bits to Z, simulation mismatch possible("E:\hafta5\fpga_beyaz_led\src\dene.v":14)
+WARN  (EX0211) : The output port "LCD_R[2]" of module "VGAMod" has no driver, assigning undriven bits to Z, simulation mismatch possible("E:\hafta5\fpga_beyaz_led\src\dene.v":14)
+WARN  (EX0211) : The output port "LCD_R[1]" of module "VGAMod" has no driver, assigning undriven bits to Z, simulation mismatch possible("E:\hafta5\fpga_beyaz_led\src\dene.v":14)
+WARN  (EX0211) : The output port "LCD_R[0]" of module "VGAMod" has no driver, assigning undriven bits to Z, simulation mismatch possible("E:\hafta5\fpga_beyaz_led\src\dene.v":14)
+[5%] Running netlist conversion ...
+WARN  (CV0016) : Input nRST is unused("E:\hafta5\fpga_beyaz_led\src\TOP.v":3)
+Running device independent optimization ...
+[10%] Optimizing Phase 0 completed
+[15%] Optimizing Phase 1 completed
+[25%] Optimizing Phase 2 completed
+Running inference ...
+[30%] Inferring Phase 0 completed
+[40%] Inferring Phase 1 completed
+[50%] Inferring Phase 2 completed
+[55%] Inferring Phase 3 completed
+Running technical mapping ...
+[60%] Tech-Mapping Phase 0 completed
+[65%] Tech-Mapping Phase 1 completed
+[75%] Tech-Mapping Phase 2 completed
+[80%] Tech-Mapping Phase 3 completed
+[90%] Tech-Mapping Phase 4 completed
+WARN  (NL0002) : The module "VGAMod" instantiated to "VGAMod_inst" is swept in optimizing("E:\hafta5\fpga_beyaz_led\src\TOP.v":36)
+[95%] Generate netlist file "E:\hafta5\fpga_beyaz_led\impl\gwsynthesis\fpga_beyaz_led.vg" completed
+[100%] Generate report file "E:\hafta5\fpga_beyaz_led\impl\gwsynthesis\fpga_beyaz_led_syn.rpt.html" completed
+GowinSynthesis finish
